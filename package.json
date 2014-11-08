@@ -1,0 +1,25 @@
+{
+    "name": "palette"
+  , "version": "0.0.1"
+  , "description": "the command line tool for browsing and downloading colour palettes from https://color.adobe.com"
+  , "keywords": ["colour", "palette", "cli"]
+  , "author": "Tom Scott <tom@deliberate.london>"
+  , "license": "MIT"
+  , "repository": { "type": "git", "url": "https://github.com/tj/commander.js.git" }
+  , "dependencies" : { "commander": ">= 2.5.0" }
+  , "devDependencies": {
+      "grunt": "~0.4.5",
+      "grunt-contrib-jshint": "~0.10.0",
+      "grunt-contrib-nodeunit": "~0.4.1",
+      "grunt-contrib-uglify": "~0.5.0",
+      "should": ">= 0.0.1"
+    }
+  , "scripts": { "test": "make test" }
+  , "main": "lib/pallette.js"
+  , "preferGlobal": "true"
+  , "bin": {
+      "pallette" : "lib/pallette.js"
+  }
+  , "engines": { "node": ">= 0.6.x" }
+  , "files": ["index.js"]
+}
