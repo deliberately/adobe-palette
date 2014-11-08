@@ -1,5 +1,5 @@
 {
-    "name": "palette"
+    "name": "adobe-palette"
   , "version": "0.0.1"
   , "description": "the command line tool for browsing and downloading colour palettes from https://color.adobe.com"
   , "keywords": ["colour", "palette", "cli"]
@@ -21,7 +21,7 @@
   , "main": "lib/pallette.js"
   , "preferGlobal": "true"
   , "bin": {
-      "pallette" : "lib/pallette.js"
+      "palette" : "lib/palette.js"
   }
   , "engines": { "node": ">= 0.6.x" }
   , "files": ["index.js"]
