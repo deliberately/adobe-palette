@@ -1,4 +1,4 @@
-# Palette
+# Adobe Palette
 
 A node command line tool to download and create OSX Colour Palettes from http://color.adobe.com
 
